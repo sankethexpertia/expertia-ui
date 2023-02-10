@@ -1,6 +1,6 @@
 import React from "react";
 import { twMerge } from "tailwind-merge";
-import "./index.css";
+import "../../src/index.css";
 
 export const Button = ({ children, className, ...rest }) => {
   const combined = twMerge(
