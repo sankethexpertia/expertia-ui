@@ -1,4 +1,5 @@
 import { twMerge } from "tailwind-merge";
+import React from "react";
 
 export const Cards = ({ children,className,...rest }) => {
 
