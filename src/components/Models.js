@@ -1,7 +1,7 @@
+import React from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import { twMerge } from "tailwind-merge";
-import React from "react";
 
 export const Modalify = ({ children, className, show, setShow, ...rest }) => {
   const combined = twMerge(
