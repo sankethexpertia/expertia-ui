@@ -16,7 +16,7 @@ export const Pagination = ({
     let arr = [];
 
     if (total < 7) {
-      for (let i = 0; i < total + 1; i++) {
+      for (let i = 0; i < total ; i++) {
         arr.push(i + 1);
       }
       return arr;
