@@ -94,4 +94,3 @@ export const Upload = ({ children, className, setFile, ...rest }) => {
   );
 };
 
-export default DragAndDrop;
