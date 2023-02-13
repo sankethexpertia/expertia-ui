@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { twMerge } from "tailwind-merge";
-//varient = 'outlined' , 'filled' --Design of chip--
+
 //deletable  --chip with delete button--
 export const Chips = ({
   children,
@@ -29,7 +29,7 @@ export const Chips = ({
           ) : (
             ""
           )}
-          <span className="px-1.5">{children}</span>
+          <span className="px-1.5">{children&&children}</span>
           {deletable && del ? (
             <div
               onClick={() => setDel(false)}

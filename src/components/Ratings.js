@@ -29,14 +29,17 @@ export const Ratings=({ ratings,size })=> {
     );
   }
   return (
-    <div className="relative">
+    <div>
+
+    <div className="relative inline-block">
       <section className="flex text-[#DDDDDD]">{startRating}</section>
       <section
         className="flex text-[#FFCC47] overflow-hidden top-0 absolute"
         style={{ width: `calc(${percentage}%)` }}
-      >
+        >
         {startRating}
       </section>
     </div>
+        </div>
   );
 }

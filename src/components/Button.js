@@ -9,10 +9,7 @@ export const Button = ({ children, className, ...rest }) => {
   );
 
   return (
-    <button
-      className={combined}
-      {...rest}
-    >
+    <button className={combined} {...rest}>
       {children}
     </button>
   );
