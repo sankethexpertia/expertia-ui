@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { twMerge } from "tailwind-merge";
 
-const DragAndDrop = ({ children, className, setFile, ...rest }) => {
+export const Upload = ({ children, className, setFile, ...rest }) => {
   const [thumbnail, setThumbnail] = useState({});
 
   const combined = twMerge(

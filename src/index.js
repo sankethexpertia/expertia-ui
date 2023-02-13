@@ -17,6 +17,7 @@ export {Slider1} from "./components/Slider"
 export {Switch1} from "./components/Switches"
 export {TimePicker} from "./components/TimePicker"
 export {ToolTip} from "./components/ToolTip"
+export {Upload} from "./components/UploadFile"
 
 export {Body1} from "./components/typography/Body1"
 export {Body2} from "./components/typography/Body2"
