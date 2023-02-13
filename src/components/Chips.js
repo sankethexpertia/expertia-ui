@@ -17,7 +17,7 @@ export const Chips = ({
     className
   );
 
-  const combined2 = twMerge(' bg-gray-400 p-0.5 rounded-full text-white  ',className_deletable)
+  const combined2 = twMerge(' bg-gray-400 p-0.5 rounded-full text-white cursor-pointer ',className_deletable)
   return (
     <div className="inline-block">
       {del ? (
