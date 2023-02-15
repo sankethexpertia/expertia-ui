@@ -70,7 +70,7 @@ export const Toast = ({
       </button>
 
       <div
-        className={`fixed ${c1} p-4 m-4  rounded-md duration-200 transform
+        className={`fixed ${c1} p-4 m-4  rounded-md duration-200 transform z-50
   ${!open ? c2 : c3}`}
       >
         <span>{children}</span>
